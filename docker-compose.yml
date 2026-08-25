@@ -1,0 +1,12 @@
+services:
+  load-dev:
+    build: .
+    entrypoint: [ sleep, infinity ]
+    volumes:
+      - .:/app
+    environment:
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+      - AWS_SESSION_TOKEN
+    env_file:
+      - .env
