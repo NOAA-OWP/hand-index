@@ -8,6 +8,6 @@ fsspec==2025.3.2
 folium==0.15.1
 branca==0.8.1
 s3fs==2025.3.2
-pyarrow==20.0.0
+pyarrow==23.0.1
 psutil==7.0.0
 matplotlib==3.10.3
